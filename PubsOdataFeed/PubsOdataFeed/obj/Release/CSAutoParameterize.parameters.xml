@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="pubsEntities-Web.config Connection String" description="pubsEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Pubs.csdl|res://*/Pubs.ssdl|res://*/Pubs.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DevServer01;initial catalog=pubs;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\F\\PubsOdataFeed\\PubsOdataFeed\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='pubsEntities']/@connectionString" />
+  </parameter>
+</parameters>

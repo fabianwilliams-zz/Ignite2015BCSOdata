@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="IgnitePubs" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\F\\PubsOdataFeed\\PubsOdataFeed\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\F\\PubsOdataFeed\\PubsOdataFeed\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="pubsEntities-Web.config Connection String" description="" value="metadata=res://*/Pubs.csdl|res://*/Pubs.ssdl|res://*/Pubs.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DevServer01;initial catalog=pubs;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\F\\PubsOdataFeed\\PubsOdataFeed\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='pubsEntities']/@connectionString" />
+  </parameter>
+</parameters>
